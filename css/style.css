@@ -1,0 +1,489 @@
+.mainpage{
+  position: absolute;
+  width: 1800px;
+  height: 960px;
+  left: 60px;
+  top: 60px;
+  background: #EDF1f4;
+
+  border-radius: 50px;
+background: rgba(255, 255, 255, 0.7);
+box-shadow: 0px 0px 24px 0px rgba(126,120,120, 0.40);
+  backdrop-filter: blur(150px)
+}
+.ellipse{
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.palka{
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.navbar{
+  top: 35px;
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 24px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-left:  24px;
+}
+.navbar a{
+  font-family: Ubuntu;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 24px;
+color: #26323E;
+}
+
+.social {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  margin-right: 16px;
+  border-radius: 100px;
+  display: block;
+  position: relative;
+  left: 205px;
+}
+.social svg{
+  position: absolute;
+  margin: 10px;
+  z-index: 100;
+  fill: #19B7BB;
+}
+
+.social:hover{
+  background-color: #19B7BB;
+  box-shadow: 0px 8px 16px rgba(116, 115, 115, 0.15);
+  transition: all 0.5s ease 0s;
+}
+.social:hover.social svg{
+  fill: #fff;
+  transition: all 0.5s ease 0s;
+}
+
+.social:focus{
+  background-color: #19B7BB;
+  box-shadow: 0px 8px 16px rgba(116, 115, 115, 0.15), inset 0px 0px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.5s ease 0s;
+}
+.social:focus.social svg{
+  fill: #fff;
+  transition: all 0.5s ease 0s;
+}
+.position-rus-eng{
+ left: 204px;
+ top: 7px;
+
+}
+
+
+.form__dropdown {
+  position: relative;
+  width: 552px;
+
+}
+.dropdown{
+  width: 122px;
+
+}
+.dropdown input {
+  width: 100%;
+  height: 56px;
+  padding-left: 50px;
+  border: 1px solid #EAEAF3;
+  border-radius: 12px;
+  outline: none;
+  background: #FFFFFF;
+  font-family: Ubuntu;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.dropdown input:focus, .dropdown input:hover{
+  border: 1px solid #19B7BB;
+  transition: all 0.5s ease 0s;
+}
+.arrow_con svg:hover, .arrow_con svg:focus{
+  transform: rotate(180deg);
+  fill: #fff;
+  transition: all 0.5s ease 0s;
+}
+.dropdown .button__question {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 16px 0 16px 17px;
+  color: #BCBCC7;
+  background: url(../img/input-question-icon.svg) no-repeat;
+  height: 30px;
+  width: 22px; 
+  border: none;
+  cursor: pointer;
+}
+.dropdown .button__question:focus, .dropdown .button__question:hover{
+  color: #252729;
+}
+.buttonn__arrow{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 16px 16px 16px 0;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: #EAEAF3;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.buttonn__arrow:hover, .buttonn__arrow:focus{
+  background-color: #19B7BB;
+  transition: all 0.5s ease 0s;
+}
+.arrow_con{
+  display: block;
+  position: relative;
+  z-index: 4;
+  width: 100%;
+}
+.arrow_con svg{
+  fill: #BCBCC7;
+}
+.arrow_con svg:hover, .arrow_con svg:focus{
+  transform: rotate(180deg);
+  fill: #fff;
+  transition: all 0.5s ease 0s;
+}
+
+
+/*это для списка*/
+.dropdown-child {
+  width: 552px;
+  position: absolute;
+  top: 60px;
+  display: none;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.dropdown-child a {
+  color: #252729;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 8px 0 8px 16px;
+  border-bottom: 1px solid #EAEAF3;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-child a:hover{
+  color: #BCBCC7;
+  transition: all 0.5s ease 0s;
+}
+.dropdown-child a:last-child {
+  border-bottom: 0px solid #EAEAF3;
+}
+.dropdown:hover .dropdown-child {
+  display: block;
+}
+
+
+
+
+
+
+.dropdown{
+  width: 122px;
+  height: 56px;
+}
+.mars {
+  width: 122px;
+  height: 40px;
+
+  border: 1px solid #EAEAF3;
+  border-radius: 25px;
+  outline: none;
+  background: #FFFFFF;
+  font-family: Ubuntu;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.mars{
+
+ text-align: left;  
+ position: absolute;
+ padding-left: 50px;
+}
+.mars1 {
+  width: 122px;
+  height: 140px;
+  border: 1px solid #EAEAF3;
+  border-radius: 25px;
+  outline: none;
+  background: #FFFFFF;
+  font-family: Ubuntu;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 300; 
+}
+
+
+a:hover {
+ color: #BCBCC7;
+ transition: all 0.5s ease 0s
+}
+.dropdown-menu a{
+  text-decoration: none;
+}
+.mars1 li:last-child{
+  border-bottom: 0px;
+}
+
+.mars2{
+  margin: 8px 0;  
+}
+
+.dropdown-child a:hover{
+  color: #BCBCC7;
+  border-bottom: 1px solid #19B7BB;
+  transition: all 0.5s ease 0s;
+}
+.bt3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+
+  position: absolute;
+  width: 246px;
+  height: 64px;
+  left: 116px;
+  top: 650px;
+}
+.mars {
+  width: 122px;
+  height: 40px;
+
+  border: 1px solid #EAEAF3;
+  border-radius: 25px;
+  outline: none;
+  background: #FFFFFF;
+  font-family: Ubuntu;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.mars{
+
+ text-align: left;  
+ position: absolute;
+ padding-left: 50px;
+}
+.mars1 {
+  width: 122px;
+  height: 140px;
+  border: 1px solid #EAEAF3;
+  border-radius: 25px;
+  outline: none;
+  background: #FFFFFF;
+  font-family: Ubuntu;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 300; 
+}
+
+
+a:hover {
+ color: #BCBCC7;
+ transition: all 0.5s ease 0s
+}
+.dropdown-menu a{
+  text-decoration: none;
+}
+.mars1 li:last-child{
+  border-bottom: 0px;
+}
+
+.mars2{
+  margin: 8px 0;  
+}
+.buttonn__arrow{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 16px 16px 16px 0;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: #EAEAF3;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.buttonn__arrow:hover, .buttonn__arrow:focus{
+  background-color: #19B7BB;
+  transition: all 0.5s ease 0s;
+}
+.arrow_con svg:hover, .arrow_con svg:focus{
+  transform: rotate(180deg);
+  fill: #fff;
+  transition: all 0.5s ease 0s;
+}
+.dropdown .button__question {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 16px 0 16px 17px;
+  color: #BCBCC7;
+  background: url(../img/input-question-icon.svg) no-repeat;
+  height: 30px;
+  width: 22px; 
+  border: none;
+  cursor: pointer;
+}
+.dropdown .button__question:focus, .dropdown .button__question:hover{
+  color: #252729;
+}
+.buttonn__arrow{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 16px 16px 16px 0;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: #EAEAF3;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.buttonn__arrow:hover, .buttonn__arrow:focus{
+  background-color: #19B7BB;
+  transition: all 0.5s ease 0s;
+}
+.arrow_con{
+  display: block;
+  position: relative;
+  z-index: 4;
+  width: 100%;
+}
+.arrow_con svg{
+  fill: #BCBCC7;
+}
+.arrow_con svg:hover, .arrow_con svg:focus{
+  transform: rotate(180deg);
+  fill: #fff;
+  transition: all 0.5s ease 0s;
+}
+.background01010{
+  position:absolute;
+
+  left: 150px;
+  top: 167px;
+  box-shadow: inset -3px 3px 4px rgba(255, 255, 255, 0.2);
+  filter: drop-shadow(8px -8px 10px rgba(255, 255, 255, 0.07)) drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.25)) drop-shadow(-30px 30px 30px rgba(0, 0, 0, 0.2)) drop-shadow(-45px 45px 70px rgba(0, 0, 0, 0.2));
+  opacity: 0.25;
+}
+.main-img-start{
+  position: absolute;
+  left: 888px;
+  top: 227px;
+}
+.textindex{
+  position: absolute;
+  width: 800px;
+  height: 160px;
+  left: 116px;
+  top: 310px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 80px;
+}
+.textindex1{
+  position: absolute;
+  width: 600px;
+  height: 108px;
+  left: 116px;
+  top: 502px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: #363E4D;
+}
+.bt3:focus{
+  box-shadow: 0px 8px 16px 0px #19B7BB52;
+  transition: all 0.7s ease 0s;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.15) inset;
+}
+.bt3:hover{
+  box-shadow: 0px 8px 16px 0px #19B7BB52;
+  transition: all 0.7s ease 0s;
+}
+.bt3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+  position: absolute;
+  width: 246px;
+  height: 64px;
+  left: 116px;
+  top: 650px;
+}
+.Grad{
+  border: none;
+  background: linear-gradient(267.71deg, #1ACACE 0%, #19B7BB 100%);
+  border-radius: 12px;
+}
+.btn-white{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+  position: absolute;
+  width: 222px;
+  height: 64px;
+  left: 386px;
+  top: 650px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(116, 115, 115, 0.15);
+}
+.spas{
+  position: static;
+  width: 182px;
+  height: 32px;
+  left: 32px;
+  top: 16px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.spas1 {
+  position: static;
+  width: 158px;
+  height: 32px;
+  left: 32px;
+  top: 16px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #252729;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10
+}
